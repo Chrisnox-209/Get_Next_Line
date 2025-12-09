@@ -106,9 +106,3 @@ get_next_line_utils_bonus.c
 - `malloc` / `free` et gestion mémoire
 - Variables statiques : https://en.wikipedia.org/wiki/Static_variable
 
-### ➤ Utilisation de l’IA
-L’IA a servi uniquement pour :
-- la rédaction de ce README,
-- la clarification théorique de l’algorithme.
-
-Le code, la logique et les tests ont été réalisés manuellement, conformément aux règles de 42.
