@@ -49,7 +49,7 @@ int main(void)
     close(fd);
     return (0);
 }
-```c
+```
 ## 🧠 Algorithme & Explication technique
 
 La fonction repose sur un principe clé :  
