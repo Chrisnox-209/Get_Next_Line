@@ -6,7 +6,7 @@
 /*   By: cpietrza <cpietrza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 10:43:16 by cpietrza          #+#    #+#             */
-/*   Updated: 2025/12/09 16:45:43 by cpietrza         ###   ########.fr       */
+/*   Updated: 2025/12/10 12:10:52 by cpietrza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,7 +75,8 @@ char	*ft_clean_stash(char *stash)
 		i++;
 	if (stash[i] != '\n')
 		return (ft_free_gnl(&stash));
-	size = ft_strlen(stash) - ++i;
+	i++;
+	size = ft_strlen(stash) - i;
 	if (size <= 0)
 		return (ft_free_gnl(&stash));
 	new_stash = malloc(size + 1);
