@@ -6,20 +6,17 @@
 /*   By: cpietrza <cpietrza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 10:43:01 by cpietrza          #+#    #+#             */
-/*   Updated: 2025/12/09 16:29:33 by cpietrza         ###   ########.fr       */
+/*   Updated: 2025/12/10 11:00:11 by cpietrza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 # ifndef BUFFER_SIZE
-#  define FILENAME "file.txt"
 #  define BUFFER_SIZE 10000
 # endif
 
-# include <stddef.h>
 # include <stdlib.h>
-# include <string.h>
 # include <unistd.h>
 
 int		ft_strlen(const char *str);
