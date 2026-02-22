@@ -4,7 +4,7 @@
 
 ## 📝 Description
 
-**Get Next Line** est un projet de l'école 42 dont l’objectif est d’écrire une fonction en C capable de lire **une ligne depuis un file descriptor**, de manière successive et efficace.  
+**Get Next Line** est un projet de l'école 42 dont l’objectif est d’écrire une fonction en C capable de lire **une ligne depuis un file descriptor**, de manière successive et efficace.
 L’exercice introduit un concept essentiel : **les variables statiques**, nécessaires pour conserver un état entre plusieurs appels.
 
 La fonction doit :
@@ -52,7 +52,7 @@ int main(void)
 ```
 ## 🧠 Algorithme & Explication technique
 
-La fonction repose sur un principe clé :  
+La fonction repose sur un principe clé :
 ➡️ **conserver dans une variable statique le contenu lu mais non encore retourné.**
 
 ---
@@ -78,7 +78,7 @@ La fonction repose sur un principe clé :
 ---
 
 ### 📌 Pourquoi une variable statique ?
-Pour mémoriser ce qui reste à lire entre deux appels successifs.  
+Pour mémoriser ce qui reste à lire entre deux appels successifs.
 Sans elle, impossible de gérer une lecture "ligne par ligne".
 
 ---
@@ -87,7 +87,7 @@ Sans elle, impossible de gérer une lecture "ligne par ligne".
 
 La version bonus ajoute :
 
-- La gestion de **plusieurs file descriptors simultanément**.  
+- La gestion de **plusieurs file descriptors simultanément**.
 - L'utilisation d’**un seul tableau statique**, indexé par fd.
 
 Fichiers bonus :
@@ -105,3 +105,11 @@ get_next_line_utils_bonus.c
 - Mécanisme des file descriptors
 - `malloc` / `free` et gestion mémoire
 - Variables statiques : https://en.wikipedia.org/wiki/Static_variable
+
+## 👤 Auteur
+
+* **Nom** : PIETRZAK Christophe
+* **42 email** : cpietrza@student.42lyon.fr
+
+## 🏆 NOTE
+<img src="https://raw.githubusercontent.com/Chrisnox-209/Get_Next_Line/refs/heads/main/note.png" alt="Note get next line 42 Lyon" style="display:block; margin:auto;">
